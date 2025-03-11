@@ -1,24 +1,26 @@
-set nocp
-syntax on
-set clipboard=unnamed
-set shiftwidth=4
-set tabstop=4
-set noswapfile
-set nobackup
-set number
-set noexpandtab
-set autoindent
-set smartindent
-set showmatch
-set wrap
-set showbreak=++
+"" the IMHO important stuff:
+syntax on								" we want syntax highlighting.
+set clipboard=unnamed		" use the system clipboard for yank/paste.
+set noswapfile					" never create swapfiles!
+set nobackup						" never create ~files!
+set number							" line numbers, why not.
+set smartindent					" good for c-like indentation.
+set showmatch						" show matching bracket.
 
-" space is my leader key
+"" convenience & at-home-feeling:
+set noexpandtab					" well, home is where the norm is obeyed!
+set shiftwidth=4				" just to feel at home and normi.
+set tabstop=4						" just to feel at home and normi.
+set wrap								" wrap text.
+set showbreak=++				" show this at line beginning after a wrap.
+
+"" some shortcuts i like to have:
+"" space is the leader!
 nnoremap <Space> <Nop>
 let mapleader=" "
 map <leader>w :w<cr>
 map <leader>q :q<cr>
-cabbr te :tabedit
-
-"" just in case i forget the setxkbmap...
+cabbr te tabedit
+map <leader>te :te 
+"" just in case i forget the setxkbmap command...
 " map jk <Esc>

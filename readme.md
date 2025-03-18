@@ -1,6 +1,6 @@
 # My 42 exam dotfiles
 
-👋 **Hello hello** 👋
+## 👋 **Hello hello** 👋
 
 These are the dotfiles i have hardcoded into my brain for quickly setting up a
 convenient dev-env when i write my exams @ 42. 
@@ -20,7 +20,7 @@ Something about my cfg: i use the xkb option `caps:swapescape` what this does:
 it swaps the caps-lock key with the escape key. In Vim you quite often have to
 switch between normal and insert mode. So, in order to do this more efficiently
 it is a good practice to move the ESC key closer to the home-row. Plus: who
-needs Caps-Lock anyway, EXCEPT FOR SHOUTING? Which is not very polite :)
+needs Caps-Lock anyway, EXCEPT FOR SHOUTING? Which of course we never do.
 
 ## My favorite **vim** motions / words / whatever...
 

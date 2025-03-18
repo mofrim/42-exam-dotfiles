@@ -9,11 +9,12 @@ Apart from these files i configure the `terminator` Terminal app to have no
 scrollbar and switching between `panes` using `Alt-hjkl` or `Ctrl-Shift-hjkl`.
 Then i launch a single terminal and create 4 splits aka 4 panes. In the upper
 left i have the examshell running, in the lower left i can do system stuff (like
-adding cfg or something) in the upper right i have the `subject.txt` open and in
-the lower right pane i code using vim 8)
+adding cfg or something) or later the compilation and testing of the stuff i try
+to code. in the upper right i have the `subject.txt` open and in the lower right
+pane i code using vim 8)
 
-A shortcut which is available per default inside the `terminator` terminal app
-is `Ctrl-_` which maximizes the current pane to the whole window. This i use
+Another shortcut which is available per default inside the `terminator` terminal
+app is `Ctrl-_` which maximizes the current pane to the whole window. This i use
 when i want to focus on the actual coding in vim.
 
 Something about my cfg: i use the xkb option `caps:swapescape` what this does:

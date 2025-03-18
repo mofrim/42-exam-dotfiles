@@ -45,6 +45,8 @@ needs Caps-Lock anyway, EXCEPT FOR SHOUTING? Which is not very polite :)
   - `V` = toggle linewise selection
   - `y` = yank aka copy selected text to clipboard
   - `yy`= yank complete line
+  - `d` = if some text is selected, cut current selection to clipboard
+  - `dd` = cut current line to clipboard
   - `Ctrl-v` = toggle visual block mode... you got to try it :)
 - **Windows / Tabs and splitting**
   - `Ctrl-w v` = open vertical split

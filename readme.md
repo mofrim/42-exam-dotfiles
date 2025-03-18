@@ -22,7 +22,7 @@ switch between normal and insert mode. So, in order to do this more efficiently
 it is a good practice to move the ESC key closer to the home-row. Plus: who
 needs Caps-Lock anyway, EXCEPT FOR SHOUTING? Which of course we never do.
 
-## My favorite **vim** motions / words / whatever...
+## My **vim** motions / words / whatever essentials
 
 - **Movements**
   - `hjkl` = of course 8)
@@ -55,3 +55,10 @@ needs Caps-Lock anyway, EXCEPT FOR SHOUTING? Which of course we never do.
   - `:tabedit <file>` = edit file in new tab
   - `gt` = goto next tab
   - `gT` = goto prev tab
+- **Saving / exiting**
+  - `:w` = write aka save file
+  - `:wq` = write and quit
+  - `:q` = quit vim
+  - `:e <file>` = edit <file> in a new buffer
+
+

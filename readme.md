@@ -17,11 +17,14 @@ Another shortcut which is available per default inside the `terminator` terminal
 app is `Ctrl-_` which maximizes the current pane to the whole window. This i use
 when i want to focus on the actual coding in vim.
 
-Something about my cfg: i use the xkb option `caps:swapescape` what this does:
+Two more things about my cfg: i use the xkb option `caps:swapescape` what this does:
 it swaps the caps-lock key with the escape key. In Vim you quite often have to
 switch between normal and insert mode. So, in order to do this more efficiently
 it is a good practice to move the ESC key closer to the home-row. Plus: who
-needs Caps-Lock anyway, EXCEPT FOR SHOUTING? Which of course we never do.
+needs Caps-Lock anyway, EXCEPT FOR SHOUTING? Which of course we never do :)
+The `xset` command is for setting a relatively fast repeat rate for the
+keyboard. I like it that way, others might have problems with being able to move
+so fast...
 
 ## My **vim** motions / words / whatever essentials
 
@@ -49,6 +52,14 @@ needs Caps-Lock anyway, EXCEPT FOR SHOUTING? Which of course we never do.
   - `d` = if some text is selected, cut current selection to clipboard
   - `dd` = cut current line to clipboard
   - `Ctrl-v` = toggle visual block mode... you got to try it :)
+  - A quick standard combo for commenting blocks code:
+    - `O` (capital o) to go to beginning of line
+    - `Ctrl-v` to enter visual-block mode
+    - move down or up the lines you want to comment
+    - `I` (capital i) to start inserting at beginning of visual selection
+    - enter comment chars, `//` for C/C++
+    - press `Esc` to leave insert mode again... et voilà! You should see `//`
+      prepended to every line you selected previously.
 - **Windows / Tabs and splitting**
   - `Ctrl-w v` = open vertical split
   - `Ctrl-w c` = close current split

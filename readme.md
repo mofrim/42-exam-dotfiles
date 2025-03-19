@@ -53,6 +53,7 @@ so fast...
   - `dd` = cut current line to clipboard
   - `Ctrl-v` = toggle visual block mode... you got to try it :)
   - A quick standard combo for commenting blocks code:
+
     1. `O` (capital o) to go to beginning of line
     2. `Ctrl-v` to enter visual-block mode
     3. move down or up the lines you want to comment
@@ -60,6 +61,7 @@ so fast...
     5. enter comment chars, `//` for C/C++
     6. press `Esc` to leave insert mode again... et voilà! You should see `//`
     prepended to every line you selected previously.
+
 - **Windows / Tabs and splitting**
   - `Ctrl-w v` = open vertical split
   - `Ctrl-w c` = close current split

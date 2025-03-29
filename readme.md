@@ -14,7 +14,7 @@ to code. in the upper right i have the `subject.txt` open and in the lower right
 pane i code using vim 8)
 
 Another shortcut which is available per default inside the `terminator` terminal
-app is `Ctrl-_` which maximizes the current pane to the whole window. This i use
+app is `Ctrl-x` which maximizes the current pane to the whole window. This i use
 when i want to focus on the actual coding in vim.
 
 Two more things about my cfg: i use the xkb option `caps:swapescape` what this does:
@@ -32,6 +32,7 @@ so fast...
   - `hjkl` = of course 8)
   - `w` = move forward one word, `W` = move forward until next space char
   - `b` = move backward one word, `B` = move backward until next space
+  - `e` = move to next end of word, `E` = the same in sudo mode
   - `gg` = go to top of file
   - `G` = go to bottom of file
   - `}` = jump forward to next empty line, `{` = jump back to prev empty line
@@ -52,7 +53,7 @@ so fast...
   - `d` = if some text is selected, cut current selection to clipboard
   - `dd` = cut current line to clipboard
   - `Ctrl-v` = toggle visual block mode... you got to try it :)
-  - A quick standard combo for commenting blocks code:
+  - A quick standard combo for commenting blocks of code:
 
     1. `O` (capital o) to go to beginning of line
     2. `Ctrl-v` to enter visual-block mode
@@ -74,5 +75,3 @@ so fast...
   - `:wq` = write and quit
   - `:q` = quit vim
   - `:e <file>` = edit <file> in a new buffer
-
-
